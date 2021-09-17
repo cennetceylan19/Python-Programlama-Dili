@@ -1,5 +1,5 @@
 # Python-Programlama-Dili
-  Herkese merhaba, bugün sizlere python programlama dili hakkında bilgi vereceğim, yeni başlayanlar için örnek kodlarımın bulunduğu github hesabımın linkini de ekleyeceğim. Başlayalım bakalım.
+  Herkese merhaba, bugün sizlere python programlama dili hakkında bilgi vereceğim, yeni başlayanlar için örnek kodlarıma ulaşabilirsiniz. Başlayalım bakalım.
 
 ![image](https://user-images.githubusercontent.com/65015625/133495368-45f18b04-dfc9-48cc-a913-e4d17ad3c369.png)
 
