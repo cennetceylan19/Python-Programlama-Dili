@@ -32,3 +32,23 @@ Peki hangi sürümü kullanmalı ya da öğrenmelisiniz? Tabi ki bu sorunun kıs
 Değinmek istediğim diğer bir konu IDE'ler. Tümleşik Geliştirme Ortamı( integrated development environment) Bilgisayar programcılarının hızlı ve rahat bir şekilde yazılım geliştirmesini amaçlayan geliştirme sürecini organize edebilen ve zamanın verimli kullanılmasına katkı sağlayan araçların tamamını içerisinde barındıran bir yazılık türüdür. Aslında bir Python programı yazmak için tek ihtiyaç duyduğumuz yorumlayıcıdır; ancak IDE'ler programcının işini kolaylaştırır.
 
 Bir programlama dilinde dilin mantıksal bütünlüğünü oluşturan ve derleyici ya da yorumlayıcıdır çalışma şeklini yönlendiren siz dizimlerine o dilin kavramları denilmektedir. Python Programlama Dilinde de anahtar kelimelerden kontrol yapılarından, değişken ve fonksiyon gibi dilin kurallı yapısını oluşturan kavramlar vardır. Bu kavramlar olmadan bir yazılık dil olma özelliğini barındırmaz ve yorumlayıcı ya da derleyici üzerinde beklenen sonucu üretemez. Kaçış dizileri, yorum ve açıklama cümleleri, koşul deyimleri ve işleçler yani operatörler, veri tipleri, karakter dizileri, fonksiyonlar, değişkenler, döngüler bu ve buna benzer dilin kurallı yapısını oluşturan temellere o dilin kavramları denilmektedir.
+Modüller
+
+Çeşitli işlevleri kolaylıkla yerine getirmeyi sağlayan fonksiyonları ve nitelikleri barındırır.
+
+Programlama dilinin omurgasıdır.
+
+Fonksiyonlar, aynı dosya içinde tekrar kullanım sağlarken modüller ise farklı dosyalar ve programlar içinde tekrar kullanılabilir.
+Modüller, Özel Modüller ve Hazır Modüller olarak ikiye ayrılır. Özel modüller Python'ın içerisinde yer alan modüllerdir. Hazır Modüller de kendi içerisinde standart kütüphane modülü, ve üçüncü şahıs modülü olarak ikiye ayrılır. Üçüncü şahıs modülü, kendi yazdığımız modüllerimiz bu sınıfa girer. Modül yazmak için herhangibir kurala gerek yoktur.Her yazdığımız python dosyası bir modüldür.
+
+Modülleri kullanmamız için ilk önce içeri aktarmalıyız.
+>>>import os
+içeri aktarmak modülün içerisindeki fonksiyonları kullanabilmemizi sağlar.
+>>>dir(os)
+ile os modülü içerisindeki fonsiyonları görebiliriz.
+
+Nesneye Yönelik Programlama (Object Oriented Programing)
+
+Programlama dilinin tüm felsefesi bir kez yazılan kodların en verimli şekilde tekrar tekrar kullanılabilmesine dayanıyor.Değişkenler, fonsiyonlar ve modüller de bu amaçla kullanılır. Nesne(Object) ve Sınıf(Class) için de bu geçerlidir.
+Nesneler birvarlığı temsil eder.Sınıf nesne türemesini sağlayan şablon veri tipidir.Tıpkı fonksiyon ve modüller gibi kodlarımızı ustaca yazılmış bir şekle dönüştürmek için kullanacağımız son derece faydalı araçlardır.Nesneye yönelik programlama mantığı;Bilgi Gizleme(Information Hiding), Veri Soyutlama(Data Abstraction), Çok Biçimlilik(polymorphism), Miras Alma(Inheritance) 'dir.
+Yazılım bakımını ve aynı yazılım üzerinde birden fazla kişinin çalışmasını kolaylaştıran kavramları yazılım literatürüne kazandırmıştır.Sağladığı bu avantajlardan dolayı OOP paradigması günümüzde yazılım projelerinde yaygın olarak kullanılmaktadır.
